@@ -1,12 +1,5 @@
 # Go-клиент для сервиса «Альфабанк Эквайринг»
 
-Типизированный Go-клиент для Alfa Bank Acquiring REST API.
-
-- Репозиторий: [github.com/alewon/alfabank-acquiring-go-client](https://github.com/alewon/alfabank-acquiring-go-client)
-- Документация пакета: [pkg.go.dev/github.com/alewon/alfabank-acquiring-go-client](https://pkg.go.dev/github.com/alewon/alfabank-acquiring-go-client)
-- Релизы: [github.com/alewon/alfabank-acquiring-go-client/releases](https://github.com/alewon/alfabank-acquiring-go-client/releases)
-- Лицензия: [MIT](https://github.com/alewon/alfabank-acquiring-go-client/blob/main/LICENSE)
-
 ## Установка
 
 ```bash
