@@ -1,18 +1,11 @@
-# alfabank-acquiring-go-client
+# Go-клиент для сервиса «Альфабанк Эквайринг»
 
 Типизированный Go-клиент для Alfa Bank Acquiring REST API.
 
-Пакет ориентирован на:
-- явные структуры запросов и ответов;
-- прозрачные вложенные модели вместо сырых JSON-блоков;
-- поддержку как `application/x-www-form-urlencoded`, так и JSON-endpoint-ов API.
-
-## Статус
-
-Пакет собран на основе локального снимка документации Alfa REST API, сохранённого в [doc.md](/home/user/Projects/clients/alfabank-acquiring-go-client/doc.md).
-
-Поддерживаемая версия модуля:
-- Go 1.18+
+- Репозиторий: [github.com/alewon/alfabank-acquiring-go-client](https://github.com/alewon/alfabank-acquiring-go-client)
+- Документация пакета: [pkg.go.dev/github.com/alewon/alfabank-acquiring-go-client](https://pkg.go.dev/github.com/alewon/alfabank-acquiring-go-client)
+- Релизы: [github.com/alewon/alfabank-acquiring-go-client/releases](https://github.com/alewon/alfabank-acquiring-go-client/releases)
+- Лицензия: [MIT](https://github.com/alewon/alfabank-acquiring-go-client/blob/main/LICENSE)
 
 ## Установка
 
@@ -52,32 +45,3 @@ func main() {
 	fmt.Println(result.Response.FormURL)
 }
 ```
-
-## Тестирование
-
-```bash
-go test ./...
-```
-
-## Документация
-
-Основное покрытие API в репозитории включает:
-- регистрацию и оплату заказов;
-- связки;
-- методы СБП;
-- статусы заказов и чеков;
-- методы шаблонов.
-
-Локальный снимок документации намеренно хранится в репозитории для аудита и проверки моделей.
-
-## Участие в разработке
-
-См. [CONTRIBUTING.md](/home/user/Projects/clients/alfabank-acquiring-go-client/CONTRIBUTING.md).
-
-## Безопасность
-
-См. [SECURITY.md](/home/user/Projects/clients/alfabank-acquiring-go-client/SECURITY.md).
-
-## Лицензия
-
-[MIT](/home/user/Projects/clients/alfabank-acquiring-go-client/LICENSE)
